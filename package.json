@@ -1,0 +1,52 @@
+{
+  "name": "@sh4nnongoh/heap",
+  "license": "Apache-2.0",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "author": {
+    "name": "Shannon Goh",
+    "url": "https://sh4nnongoh.github.io/"
+  },
+  "homepage": "https://github.com/sh4nnongoh/heap",
+  "bugs": {
+    "url": "https://github.com/sh4nnongoh/heap/issues"
+  },
+  "main": "./dist/heap.cjs.js",
+  "module": "./dist/heap.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/heap.es.js",
+      "require": "./dist/heap.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "build": "npm run lint && vite build && tsc -p tsconfig.build.json",
+    "lint": "eslint . --ext .ts,.js",
+    "lint:fix": "eslint . --ext .ts,.js --fix",
+    "doc": "npx typedoc --entryPoints src/index.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.7.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.9",
+    "typedoc": "^0.28.19",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vite-plugin-dts": "^5.0.0"
+  }
+}
