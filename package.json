@@ -1,8 +1,8 @@
 {
   "name": "@sh4nnongoh/heap",
-  "license": "Apache-2.0",
+  "license": "BSD-3-Clause",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "author": {
     "name": "Shannon Goh",
