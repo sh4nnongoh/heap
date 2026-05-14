@@ -8,7 +8,7 @@ Finding the median value in a data stream:
 https://neetcode.io/problems/find-median-in-a-data-stream
 
 ```ts
-import { heap, type Heap } from "heap";
+import { heap, type Heap } from "@sh4nnongoh/heap";
 
 interface MyHeap extends Heap {
   Peek(): any
