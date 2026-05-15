@@ -18,7 +18,7 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
   ],
-  ignorePatterns: ['dist', 'node_modules', 'docs', 'vite.config.ts', 'jest.config.cjs', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', 'node_modules', 'docs', 'vite.config.ts', 'jest.config.cjs', '.eslintrc.cjs', 'coverage'],
   rules: {
     "import/extensions": [0],
   },
