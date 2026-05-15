@@ -2,7 +2,7 @@
   "name": "@sh4nnongoh/heap",
   "license": "BSD-3-Clause",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "author": {
     "name": "Shannon Goh",

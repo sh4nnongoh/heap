@@ -9,6 +9,12 @@
 
 Heap is a npm library for adding heap functionality to your Javascript / Typescript application; inspired by [Go's heap implementation](https://pkg.go.dev/container/heap).
 
+## Installation
+
+```bash
+npm i @sh4nnongoh/heap
+```
+
 ## Example
 
 Finding the median value in a data stream: 
